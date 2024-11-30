@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #ff5733;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .menu {
+    padding: 2rem;
+  }
+  
+  .food-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .food-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .food-item h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
